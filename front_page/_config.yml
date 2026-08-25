@@ -19,18 +19,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: tue.bi
-email: kuglerm@protonmail.com
+email: kuglerm@tue.bi
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The place tue.bi
+
+  Something beautiful might go here. You're already here after all ;)
+
+  Made with the Jekyll Site Generator. https://jekyllrb.com/
 
 domain: tue.bi    # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://tue.bi  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /front_page/      # place folder name if the site is served in a subfolder
-
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 theme: minima
