@@ -1,0 +1,85 @@
+---
+---
+
+@import "minima";
+
+.site-logo {
+  height: 42px;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  padding: $spacing-unit 0;
+}
+
+.app-icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .15);
+  margin-bottom: $spacing-unit / 2;
+}
+
+.lang-toggle {
+  margin: 0 0 $spacing-unit / 2;
+}
+
+.lang-btn {
+  background: none;
+  border: 1px solid $grey-color-light;
+  color: $grey-color-dark;
+  padding: 4px 14px;
+  font-size: $small-font-size;
+  cursor: pointer;
+  border-radius: 999px;
+
+  &:hover {
+    border-color: $brand-color;
+  }
+
+  &.active {
+    background: $brand-color;
+    border-color: $brand-color;
+    color: $background-color;
+  }
+
+  & + & {
+    margin-left: 6px;
+  }
+}
+
+body:not(.lang-en) [data-lang="en"] {
+  display: none;
+}
+
+body.lang-en [data-lang="de"] {
+  display: none;
+}
+
+.store-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: $spacing-unit;
+}
+
+.store-button {
+  display: inline-block;
+  background-color: $text-color;
+  color: $background-color;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+
+  &:hover {
+    background-color: $brand-color;
+    color: $background-color;
+  }
+}
